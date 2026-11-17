@@ -1,8 +1,8 @@
 {
-  "status": "BOOTING",
+  "status": "LIVE",
   "engine": "cutter",
   "title": "cutter (rizinorg) Omni-Nexus",
-  "mcp_url": "",
-  "gui_url": "",
-  "updated_at": "2026-11-17T06:09:56Z"
+  "mcp_url": "https://reload-schemes-mic-blue.trycloudflare.com/mcp",
+  "gui_url": "https://reload-schemes-mic-blue.trycloudflare.com/",
+  "updated_at": "2026-11-17T06:10:51Z"
 }

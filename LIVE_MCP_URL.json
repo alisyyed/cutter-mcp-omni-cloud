@@ -1,8 +1,8 @@
 {
-  "status": "LIVE",
+  "status": "BOOTING",
   "engine": "cutter",
   "title": "cutter (rizinorg) Omni-Nexus",
-  "mcp_url": "https://shorts-lenses-barriers-ash.trycloudflare.com/mcp",
-  "gui_url": "https://shorts-lenses-barriers-ash.trycloudflare.com/",
-  "updated_at": "2026-11-17T23:59:32Z"
+  "mcp_url": "",
+  "gui_url": "",
+  "updated_at": "2026-11-18T02:02:22Z"
 }

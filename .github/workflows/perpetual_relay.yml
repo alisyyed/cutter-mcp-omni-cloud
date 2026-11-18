@@ -29,7 +29,7 @@ jobs:
         run: |
           sudo DEBIAN_FRONTEND=noninteractive apt-get update -qq || true
           sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq ca-certificates curl tar git sqlite3 || true
-          git clone --depth 1 https://github.com/rizinorg/cutter /tmp/cutter_src || true && pip install fastmcp uvicorn httpx pydantic
+          git clone --depth 1 https://github.com/rizinorg/cutter /tmp/cutter_src || true
           rm -f /tmp/LIVE_MCP_URL.json
           nohup python3 -u cloud_mcp_server.py --port 7860 > /tmp/mcp_omni.log 2>&1 &
           echo "Waiting for cloud_mcp_server.py to publish verified https://*.trycloudflare.com URL to /tmp/LIVE_MCP_URL.json..."

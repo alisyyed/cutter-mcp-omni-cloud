@@ -1,8 +1,8 @@
 {
-  "status": "BOOTING",
+  "status": "LIVE",
   "engine": "cutter",
   "title": "cutter (rizinorg) Omni-Nexus",
-  "mcp_url": "",
-  "gui_url": "",
-  "updated_at": "2026-11-18T02:02:22Z"
+  "mcp_url": "https://seats-encounter-hop-differences.trycloudflare.com/mcp",
+  "gui_url": "https://seats-encounter-hop-differences.trycloudflare.com/",
+  "updated_at": "2026-11-18T02:03:16Z"
 }

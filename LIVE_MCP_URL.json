@@ -1,8 +1,8 @@
 {
-  "status": "LIVE",
+  "status": "BOOTING",
   "engine": "cutter",
-  "title": "cutter (rizinorg) Omni-Nexus",
-  "mcp_url": "https://stanley-humanitarian-jessica-conflicts.trycloudflare.com/mcp",
-  "gui_url": "https://stanley-humanitarian-jessica-conflicts.trycloudflare.com/",
-  "updated_at": "2026-11-23T06:10:56Z"
+  "title": "github.com ([https:) Omni-Nexus",
+  "mcp_url": "",
+  "gui_url": "",
+  "updated_at": "2026-11-23T06:52:47Z"
 }

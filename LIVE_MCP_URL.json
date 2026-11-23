@@ -1,8 +1,8 @@
 {
-  "status": "BOOTING",
+  "status": "LIVE",
   "engine": "cutter",
   "title": "cutter (rizinorg) Omni-Nexus",
-  "mcp_url": "",
-  "gui_url": "",
-  "updated_at": "2026-11-23T07:07:59Z"
+  "mcp_url": "https://nation-divine-insights-fancy.trycloudflare.com/mcp",
+  "gui_url": "https://nation-divine-insights-fancy.trycloudflare.com/",
+  "updated_at": "2026-11-23T07:08:36Z"
 }

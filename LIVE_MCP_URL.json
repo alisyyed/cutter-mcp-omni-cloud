@@ -1,8 +1,8 @@
 {
-  "status": "BOOTING",
+  "status": "LIVE",
   "engine": "cutter",
   "title": "Cutter OmniNexus (rizinorg/cutter)",
-  "mcp_url": "",
-  "gui_url": "",
-  "updated_at": "2026-11-27T15:12:24Z"
+  "mcp_url": "https://even-joe-operational-physically.trycloudflare.com/mcp",
+  "gui_url": "https://even-joe-operational-physically.trycloudflare.com/",
+  "updated_at": "2026-11-27T15:13:20Z"
 }

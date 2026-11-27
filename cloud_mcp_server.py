@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Auto-Generated 24/7 Cloud MCP Server for cutter (rizinorg) Omni-Nexus (cutter)
+Auto-Generated 24/7 Cloud MCP Server for Cutter OmniNexus (rizinorg/cutter) (cutter)
 Zero external pip dependencies required! Runs on pure Python 3 stdlib + cloudflared tunnel.
 Archetype: github_repo | Target: https://github.com/rizinorg/cutter
 """
@@ -22,32 +22,15 @@ import urllib.request
 from pathlib import Path
 
 ENGINE_SLUG = "cutter"
-DISPLAY_TITLE = "cutter (rizinorg) Omni-Nexus"
+DISPLAY_TITLE = "Cutter OmniNexus (rizinorg/cutter)"
 ARCHETYPE = "github_repo"
 TARGET_SOURCE = "https://github.com/rizinorg/cutter"
 SYSTEM_RULES = "Clone and expose rizinorg/cutter CLI/library functions as 24/7 Cloud MCP tools with Obscura-First web fetching and all 6 Axiom Middlewares."
 OBSCURA_MCP_URL = "https://obscura-mcp-forever.forested-lung.workers.dev/mcp"
 CURATED_TOOLS = [
   {
-    "name": "orchestrate_sqlite_vault_to_cutter_r2_with_check2_smod0",
-    "description": "[cutter (rizinorg) Omni-Nexus] Composite 3-Stage Pipeline: (1) sqlite_vault_read -> (2) cutter_r2_ghidra_lift -> (3) check2_smod0_guard with automatic SMod0 rollback.",
-    "inputSchema": {
-      "type": "object",
-      "properties": {
-        "query": {
-          "type": "string",
-          "description": "Primary input query, URL, command, SQL statement, or text to process."
-        },
-        "options_json": {
-          "type": "string",
-          "description": "Optional JSON object string with extra parameters (e.g. '{\"eval_js\": \"document.title\"}')."
-        }
-      }
-    }
-  },
-  {
     "name": "cutter_doctor_and_status",
-    "description": "[cutter (rizinorg) Omni-Nexus] Verify rizinorg/cutter checkout, build targets, and Cloud VM health.",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] Verify cutter checkout, binaries, and 24/7 Cloud VM health.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -63,8 +46,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "cutter_execute_command",
-    "description": "[cutter (rizinorg) Omni-Nexus] Execute cutter CLI or headless batch command with JSON output.",
+    "name": "cutter_discover_all_hidden_capabilities",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] Runtime auto-introspection on the 24/7 Cloud VM: scans --help, Makefile, package.json, pyproject.toml, Cargo.toml, mcp.json, and all scripts/modules.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -80,8 +63,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "cutter_inspect_scripts",
-    "description": "[cutter (rizinorg) Omni-Nexus] List and execute modules inside `rizinorg/cutter/scripts` on the Cloud VM.",
+    "name": "cutter_run_any_subcommand_or_script",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] Universal dynamic executor: invoke any discovered CLI subcommand, flag, or internal script inside cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -97,8 +80,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "cutter_inspect_src",
-    "description": "[cutter (rizinorg) Omni-Nexus] List and execute modules inside `rizinorg/cutter/src` on the Cloud VM.",
+    "name": "cutter_mod_appbundle_patch_qtwebengine",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/appbundle_patch_qtwebengine.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -114,8 +97,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "cutter_cmake_targets_and_plugins",
-    "description": "[cutter (rizinorg) Omni-Nexus] Inspect C++/CMake targets, plugins, and headers in cutter.",
+    "name": "cutter_mod_appimage_embed_python",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/appimage_embed_python.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -131,8 +114,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "cutter_obscura_live_docs_bridge",
-    "description": "[cutter (rizinorg) Omni-Nexus] Scrape live documentation, issues, and releases for rizinorg/cutter via Obscura V8.",
+    "name": "cutter_mod_clang_format",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/clang-format.py` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -148,8 +131,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "cutter_smod0_verified_pipeline",
-    "description": "[cutter (rizinorg) Omni-Nexus] Composite pipeline: run cutter analysis -> cross-map with 7-Engine Fleet -> enforce Check2 SMod0 guard.",
+    "name": "cutter_mod_clang_tidy",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/clang-tidy.py` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -165,8 +148,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "zero_dash_and_cliche_auditor",
-    "description": "[cutter (rizinorg) Omni-Nexus] Enforce 0 em-dashes, 0 en-dashes, and screen against banned AI lexicon phrases with exact line offsets.",
+    "name": "cutter_mod_deploy_docs",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/deploy_docs.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -182,8 +165,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "ioctl_switch_table_decoder",
-    "description": "[cutter (rizinorg) Omni-Nexus] Decode Windows/PS5 kernel driver IOCTL 32-bit control codes (DeviceType, Function, Method, Access).",
+    "name": "cutter_mod_deploy_translations",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/deploy_translations.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -199,8 +182,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "yara_signature_synthesizer",
-    "description": "[cutter (rizinorg) Omni-Nexus] Generate high-precision YARA & FLIRT byte-pattern rules from hex opcodes or unique binary strings.",
+    "name": "cutter_mod_dump_syms_macos",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/dump_syms_macos.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -216,8 +199,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "memfd_ram_sandbox_exec",
-    "description": "[cutter (rizinorg) Omni-Nexus] Execute compiled C/ELF payloads inside an anonymous Linux os.memfd_create RAM descriptor (/proc/self/fd).",
+    "name": "cutter_mod_fetch_deps",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/fetch_deps.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -233,8 +216,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "c_struct_layout_reconstructor",
-    "description": "[cutter (rizinorg) Omni-Nexus] Reconstruct padded C/C++20 struct definitions and vtable offsets from raw decompiler field accesses.",
+    "name": "cutter_mod_get_version",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/get_version.py` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -250,8 +233,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "elf_pe_prx_header_triage",
-    "description": "[cutter (rizinorg) Omni-Nexus] Inspect ELF/PE/PRX/SELF magic headers, sections, Shannon entropy, and security mitigations (NX/Canary/RELRO).",
+    "name": "cutter_mod_jsdec",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/jsdec.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -267,8 +250,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "obscura_v8_spa_snapshot",
-    "description": "[cutter (rizinorg) Omni-Nexus] Render JavaScript SPA via Obscura 0.2.7 V8 engine and return full accessibility/DOM tree snapshot.",
+    "name": "cutter_mod_macos_sign",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/macos_sign.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -284,8 +267,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "obscura_multi_worker_burst",
-    "description": "[cutter (rizinorg) Omni-Nexus] Parallel-scrape up to 25 URLs simultaneously via Obscura Rust worker pool with per-URL ms telemetry.",
+    "name": "cutter_mod_prepare_package_ui_macos",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/prepare_package_ui_macos.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -301,8 +284,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "obscura_rust_png_pdf_capture",
-    "description": "[cutter (rizinorg) Omni-Nexus] Render webpage to PNG/PDF via Obscura zero-Chromium Rust paint engine (taffy + tiny-skia) with SHA-256 hash.",
+    "name": "cutter_mod_prepare_python_macos",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/prepare_python_macos.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -318,8 +301,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "obscura_form_and_api_sniffer",
-    "description": "[cutter (rizinorg) Omni-Nexus] Auto-detect interactive DOM forms, hidden inputs, and XHR/fetch endpoints on any target URL.",
+    "name": "cutter_mod_rz_frida",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/rz-frida.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -335,8 +318,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "obscura_llms_txt_harvester",
-    "description": "[cutter (rizinorg) Omni-Nexus] Locate and ingest /llms.txt, /sitemap.xml, and technical documentation indexes into clean Markdown.",
+    "name": "cutter_mod_rz_libswift",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/rz-libswift.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -352,8 +335,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "fts5_semantic_vault_search",
-    "description": "[cutter (rizinorg) Omni-Nexus] Run full-text FTS5 BM25 ranked search across persistent SQLite knowledge and quote vaults.",
+    "name": "cutter_mod_rz_libyara",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/rz-libyara.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -369,8 +352,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "json_csv_schema_auto_ingestor",
-    "description": "[cutter (rizinorg) Omni-Nexus] Infer SQLite table schema from raw JSON/CSV payloads and batch-upsert records with provenance.",
+    "name": "cutter_mod_rz_silhouette",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/rz-silhouette.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -386,8 +369,8 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "check2_smod_error_predictor",
-    "description": "[cutter (rizinorg) Omni-Nexus] Run pre-flight error prediction across hierarchical SMod1-SMod9 and nested aSMod21/bSMod21/cSMod21 tiers.",
+    "name": "cutter_mod_tarball",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/tarball.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -403,8 +386,110 @@ CURATED_TOOLS = [
     }
   },
   {
-    "name": "hexa_decompile_and_gcc_verify",
-    "description": "[cutter (rizinorg) Omni-Nexus] Chain Radare2/Cutter triage -> Ghidra/IDA lift -> LLM4Decompile C99 refine -> GCC -O0..-O3 assert check.",
+    "name": "cutter_mod_update_clang_format",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/update_clang_format.sh` inside rizinorg/cutter.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary input query, URL, command, SQL statement, or text to process."
+        },
+        "options_json": {
+          "type": "string",
+          "description": "Optional JSON object string with extra parameters (e.g. '{\"eval_js\": \"document.title\"}')."
+        }
+      }
+    }
+  },
+  {
+    "name": "cutter_mod_update_deps",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/update_deps.py` inside rizinorg/cutter.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary input query, URL, command, SQL statement, or text to process."
+        },
+        "options_json": {
+          "type": "string",
+          "description": "Optional JSON object string with extra parameters (e.g. '{\"eval_js\": \"document.title\"}')."
+        }
+      }
+    }
+  },
+  {
+    "name": "cutter_cmd_cutter",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute CLI subcommand `cutter Cutter` discovered in README.md.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary input query, URL, command, SQL statement, or text to process."
+        },
+        "options_json": {
+          "type": "string",
+          "description": "Optional JSON object string with extra parameters (e.g. '{\"eval_js\": \"document.title\"}')."
+        }
+      }
+    }
+  },
+  {
+    "name": "cutter_cmd_release",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute CLI subcommand `cutter release` discovered in README.md.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary input query, URL, command, SQL statement, or text to process."
+        },
+        "options_json": {
+          "type": "string",
+          "description": "Optional JSON object string with extra parameters (e.g. '{\"eval_js\": \"document.title\"}')."
+        }
+      }
+    }
+  },
+  {
+    "name": "cutter_cmd_supports",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute CLI subcommand `cutter supports` discovered in README.md.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary input query, URL, command, SQL statement, or text to process."
+        },
+        "options_json": {
+          "type": "string",
+          "description": "Optional JSON object string with extra parameters (e.g. '{\"eval_js\": \"document.title\"}')."
+        }
+      }
+    }
+  },
+  {
+    "name": "cutter_cmd_such",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute CLI subcommand `cutter such` discovered in README.md.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Primary input query, URL, command, SQL statement, or text to process."
+        },
+        "options_json": {
+          "type": "string",
+          "description": "Optional JSON object string with extra parameters (e.g. '{\"eval_js\": \"document.title\"}')."
+        }
+      }
+    }
+  },
+  {
+    "name": "cutter_cmd_plugins",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute CLI subcommand `cutter plugins` discovered in README.md.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -421,7 +506,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "cutter_hexa_engine_bridge",
-    "description": "[cutter (rizinorg) Omni-Nexus] Coordinate multi-engine tasks across Obscura, Radare2, Ghidra, IDA 9.5, LLM4Decompile, and Craft-Anything.",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] Coordinate multi-engine tasks across Obscura, Radare2, Ghidra, IDA 9.5, LLM4Decompile, and Craft-Anything.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -438,29 +523,34 @@ CURATED_TOOLS = [
   }
 ]
 TOOL_MODES = {
-  "orchestrate_sqlite_vault_to_cutter_r2_with_check2_smod0": "composite_pipeline",
   "cutter_doctor_and_status": "cli_exec",
-  "cutter_execute_command": "cli_exec",
-  "cutter_inspect_scripts": "cli_exec",
-  "cutter_inspect_src": "cli_exec",
-  "cutter_cmake_targets_and_plugins": "cli_exec",
-  "cutter_obscura_live_docs_bridge": "obscura_scrape",
-  "cutter_smod0_verified_pipeline": "composite_pipeline",
-  "zero_dash_and_cliche_auditor": "rule_validator",
-  "ioctl_switch_table_decoder": "cli_exec",
-  "yara_signature_synthesizer": "rule_validator",
-  "memfd_ram_sandbox_exec": "cli_exec",
-  "c_struct_layout_reconstructor": "rule_validator",
-  "elf_pe_prx_header_triage": "cli_exec",
-  "obscura_v8_spa_snapshot": "obscura_scrape",
-  "obscura_multi_worker_burst": "obscura_scrape",
-  "obscura_rust_png_pdf_capture": "obscura_scrape",
-  "obscura_form_and_api_sniffer": "obscura_scrape",
-  "obscura_llms_txt_harvester": "obscura_scrape",
-  "fts5_semantic_vault_search": "sqlite_query",
-  "json_csv_schema_auto_ingestor": "sqlite_query",
-  "check2_smod_error_predictor": "rule_validator",
-  "hexa_decompile_and_gcc_verify": "composite_pipeline"
+  "cutter_discover_all_hidden_capabilities": "cli_exec",
+  "cutter_run_any_subcommand_or_script": "cli_exec",
+  "cutter_mod_appbundle_patch_qtwebengine": "cli_exec",
+  "cutter_mod_appimage_embed_python": "cli_exec",
+  "cutter_mod_clang_format": "cli_exec",
+  "cutter_mod_clang_tidy": "cli_exec",
+  "cutter_mod_deploy_docs": "cli_exec",
+  "cutter_mod_deploy_translations": "cli_exec",
+  "cutter_mod_dump_syms_macos": "cli_exec",
+  "cutter_mod_fetch_deps": "cli_exec",
+  "cutter_mod_get_version": "cli_exec",
+  "cutter_mod_jsdec": "cli_exec",
+  "cutter_mod_macos_sign": "cli_exec",
+  "cutter_mod_prepare_package_ui_macos": "cli_exec",
+  "cutter_mod_prepare_python_macos": "cli_exec",
+  "cutter_mod_rz_frida": "cli_exec",
+  "cutter_mod_rz_libswift": "cli_exec",
+  "cutter_mod_rz_libyara": "cli_exec",
+  "cutter_mod_rz_silhouette": "cli_exec",
+  "cutter_mod_tarball": "cli_exec",
+  "cutter_mod_update_clang_format": "cli_exec",
+  "cutter_mod_update_deps": "cli_exec",
+  "cutter_cmd_cutter": "cli_exec",
+  "cutter_cmd_release": "cli_exec",
+  "cutter_cmd_supports": "cli_exec",
+  "cutter_cmd_such": "cli_exec",
+  "cutter_cmd_plugins": "cli_exec"
 }
 
 
@@ -502,6 +592,31 @@ def _run_memfd_or_subprocess(cmd_args: list, timeout_sec: int = 20) -> dict:
 
 
 def dispatch_universal_tool(tool_name: str, arguments: dict) -> dict:
+    if tool_name.endswith("_discover_all_hidden_capabilities"):
+        src_root = Path("/tmp/" + ENGINE_SLUG.replace("-", "_") + "_src")
+        found_scripts, found_manifests, found_bins = [], [], []
+        if src_root.exists():
+            for p in list(src_root.rglob("*"))[:400]:
+                if p.is_file():
+                    rel = str(p.relative_to(src_root))
+                    nl = p.name.lower()
+                    if nl in ("makefile", "package.json", "pyproject.toml", "cargo.toml", "cmakelists.txt", "mcp.json", "server.json"):
+                        found_manifests.append(rel)
+                    elif p.suffix.lower() in (".py", ".sh", ".js", ".ts") and len(found_scripts) < 40:
+                        found_scripts.append(rel)
+                    elif os.access(str(p), os.X_OK) and len(found_bins) < 20:
+                        found_bins.append(rel)
+        return {
+            "status": "RUNTIME_CAPABILITIES_DISCOVERED",
+            "engine_slug": ENGINE_SLUG,
+            "cloned_src_dir_exists": src_root.exists(),
+            "manifests_found": found_manifests,
+            "scripts_sample": found_scripts,
+            "executables_found": found_bins,
+            "total_exposed_mcp_tools": len(CURATED_TOOLS),
+            "tip": "Invoke any discovered script or subcommand immediately via `" + ENGINE_SLUG.replace("-", "_") + "_run_any_subcommand_or_script`!",
+        }
+
     if tool_name.endswith("_hexa_engine_bridge"):
         return {
             "status": "HEXA_BRIDGE_CONNECTED",
@@ -514,6 +629,9 @@ def dispatch_universal_tool(tool_name: str, arguments: dict) -> dict:
                 "ida_hexrays": "https://ida-hexrays-mcp-forever.forested-lung.workers.dev/mcp",
                 "craft_anything": "https://craft-anything-mcp-forever.forested-lung.workers.dev/mcp",
                 "ghidra": "https://ghidra-mcp-forever.forested-lung.workers.dev/mcp",
+                "cutter": "https://cutter-mcp-forever.forested-lung.workers.dev/mcp",
+                "rea": "https://rea-mcp-forever.forested-lung.workers.dev/mcp",
+                "rea_portal": "https://rea-portal-mcp-forever.forested-lung.workers.dev/mcp",
             },
             "payload_json": arguments.get("payload_json", "{}"),
         }
@@ -588,6 +706,21 @@ def dispatch_universal_tool(tool_name: str, arguments: dict) -> dict:
         except Exception as exc:
             result["http_proxy_response"] = {"error": str(exc)}
 
+    elif mode == "gpu_compute":
+        gpu_info = _run_memfd_or_subprocess(["nvidia-smi", "--query-gpu=name,driver_version,memory.total,memory.free,utilization.gpu", "--format=csv,noheader"])
+        cuda_ok = (gpu_info.get("exit_code") == 0 and bool(gpu_info.get("stdout", "").strip()))
+        result["gpu_compute_telemetry"] = {
+            "cuda_gpu_detected": cuda_ok,
+            "nvidia_smi": gpu_info.get("stdout", "").strip() if cuda_ok else "CLOUD_CPU_AND_WORKERS_AI_ACTIVE (24/7 Free Cloudflare Workers AI Edge GPU + Optional Free Colab/Kaggle T4 Cloud Relay)",
+            "cpu_cores": os.cpu_count(),
+            "platform": platform.platform(),
+            "requested_operation": query or "gpu_probe",
+        }
+        if query.strip() and opts.get("cmd"):
+            cmd = opts.get("cmd")
+            if isinstance(cmd, str):
+                cmd = cmd.split()
+            result["gpu_workload_exec"] = _run_memfd_or_subprocess(cmd, timeout_sec=60)
     elif mode == "composite_pipeline":
         cmd = opts.get("cmd") or ["uname", "-a"]
         if isinstance(cmd, str):

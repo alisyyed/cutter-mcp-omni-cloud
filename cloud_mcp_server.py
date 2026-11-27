@@ -30,7 +30,7 @@ OBSCURA_MCP_URL = "https://obscura-mcp-forever.forested-lung.workers.dev/mcp"
 CURATED_TOOLS = [
   {
     "name": "cutter_doctor_and_status",
-    "description": "[Cutter OmniNexus (rizinorg/cutter)] Verify cutter checkout, binaries, and 24/7 Cloud VM health.",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] [Cutter OmniNexus (rizinorg/cutter)] Verify cutter checkout, binaries, and 24/7 Cloud VM health.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -47,7 +47,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "cutter_discover_all_hidden_capabilities",
-    "description": "[Cutter OmniNexus (rizinorg/cutter)] Runtime auto-introspection on the 24/7 Cloud VM: scans --help, Makefile, package.json, pyproject.toml, Cargo.toml, mcp.json, and all scripts/modules.",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] [Cutter OmniNexus (rizinorg/cutter)] Runtime auto-introspection on the 24/7 Cloud VM: scans --help, Makefile, package.json, pyproject.toml, Cargo.toml, mcp.json, and all scripts/modules.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -64,7 +64,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "cutter_run_any_subcommand_or_script",
-    "description": "[Cutter OmniNexus (rizinorg/cutter)] Universal dynamic executor: invoke any discovered CLI subcommand, flag, or internal script inside cutter.",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] [Cutter OmniNexus (rizinorg/cutter)] Universal dynamic executor: invoke any discovered CLI subcommand, flag, or internal script inside cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -81,7 +81,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "cutter_mod_appbundle_patch_qtwebengine",
-    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/appbundle_patch_qtwebengine.sh` inside rizinorg/cutter.",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] [Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/appbundle_patch_qtwebengine.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -98,7 +98,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "cutter_mod_appimage_embed_python",
-    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/appimage_embed_python.sh` inside rizinorg/cutter.",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] [Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/appimage_embed_python.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -115,7 +115,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "cutter_mod_clang_format",
-    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/clang-format.py` inside rizinorg/cutter.",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] [Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/clang-format.py` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -132,7 +132,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "cutter_mod_clang_tidy",
-    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/clang-tidy.py` inside rizinorg/cutter.",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] [Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/clang-tidy.py` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -149,7 +149,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "cutter_mod_deploy_docs",
-    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/deploy_docs.sh` inside rizinorg/cutter.",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] [Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/deploy_docs.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -166,7 +166,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "cutter_mod_deploy_translations",
-    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/deploy_translations.sh` inside rizinorg/cutter.",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] [Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/deploy_translations.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -183,7 +183,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "cutter_mod_dump_syms_macos",
-    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/dump_syms_macos.sh` inside rizinorg/cutter.",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] [Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/dump_syms_macos.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -200,7 +200,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "cutter_mod_fetch_deps",
-    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/fetch_deps.sh` inside rizinorg/cutter.",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] [Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/fetch_deps.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -217,7 +217,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "cutter_mod_get_version",
-    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/get_version.py` inside rizinorg/cutter.",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] [Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/get_version.py` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -234,7 +234,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "cutter_mod_jsdec",
-    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/jsdec.sh` inside rizinorg/cutter.",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] [Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/jsdec.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -251,7 +251,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "cutter_mod_macos_sign",
-    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/macos_sign.sh` inside rizinorg/cutter.",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] [Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/macos_sign.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -268,7 +268,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "cutter_mod_prepare_package_ui_macos",
-    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/prepare_package_ui_macos.sh` inside rizinorg/cutter.",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] [Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/prepare_package_ui_macos.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -285,7 +285,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "cutter_mod_prepare_python_macos",
-    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/prepare_python_macos.sh` inside rizinorg/cutter.",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] [Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/prepare_python_macos.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -302,7 +302,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "cutter_mod_rz_frida",
-    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/rz-frida.sh` inside rizinorg/cutter.",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] [Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/rz-frida.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -319,7 +319,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "cutter_mod_rz_libswift",
-    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/rz-libswift.sh` inside rizinorg/cutter.",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] [Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/rz-libswift.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -336,7 +336,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "cutter_mod_rz_libyara",
-    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/rz-libyara.sh` inside rizinorg/cutter.",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] [Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/rz-libyara.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -353,7 +353,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "cutter_mod_rz_silhouette",
-    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/rz-silhouette.sh` inside rizinorg/cutter.",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] [Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/rz-silhouette.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -370,7 +370,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "cutter_mod_tarball",
-    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/tarball.sh` inside rizinorg/cutter.",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] [Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/tarball.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -387,7 +387,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "cutter_mod_update_clang_format",
-    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/update_clang_format.sh` inside rizinorg/cutter.",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] [Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/update_clang_format.sh` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -404,7 +404,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "cutter_mod_update_deps",
-    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/update_deps.py` inside rizinorg/cutter.",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] [Cutter OmniNexus (rizinorg/cutter)] Execute or inspect harvested module `scripts/update_deps.py` inside rizinorg/cutter.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -421,7 +421,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "cutter_cmd_cutter",
-    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute CLI subcommand `cutter Cutter` discovered in README.md.",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] [Cutter OmniNexus (rizinorg/cutter)] Execute CLI subcommand `cutter Cutter` discovered in README.md.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -438,7 +438,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "cutter_cmd_release",
-    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute CLI subcommand `cutter release` discovered in README.md.",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] [Cutter OmniNexus (rizinorg/cutter)] Execute CLI subcommand `cutter release` discovered in README.md.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -455,7 +455,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "cutter_cmd_supports",
-    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute CLI subcommand `cutter supports` discovered in README.md.",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] [Cutter OmniNexus (rizinorg/cutter)] Execute CLI subcommand `cutter supports` discovered in README.md.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -472,7 +472,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "cutter_cmd_such",
-    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute CLI subcommand `cutter such` discovered in README.md.",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] [Cutter OmniNexus (rizinorg/cutter)] Execute CLI subcommand `cutter such` discovered in README.md.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -489,7 +489,7 @@ CURATED_TOOLS = [
   },
   {
     "name": "cutter_cmd_plugins",
-    "description": "[Cutter OmniNexus (rizinorg/cutter)] Execute CLI subcommand `cutter plugins` discovered in README.md.",
+    "description": "[Cutter OmniNexus (rizinorg/cutter)] [Cutter OmniNexus (rizinorg/cutter)] Execute CLI subcommand `cutter plugins` discovered in README.md.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -541,7 +541,7 @@ TOOL_MODES = {
   "cutter_mod_prepare_python_macos": "cli_exec",
   "cutter_mod_rz_frida": "cli_exec",
   "cutter_mod_rz_libswift": "cli_exec",
-  "cutter_mod_rz_libyara": "cli_exec",
+  "cutter_mod_rz_libyara": "rule_validator",
   "cutter_mod_rz_silhouette": "cli_exec",
   "cutter_mod_tarball": "cli_exec",
   "cutter_mod_update_clang_format": "cli_exec",
@@ -632,6 +632,7 @@ def dispatch_universal_tool(tool_name: str, arguments: dict) -> dict:
                 "cutter": "https://cutter-mcp-forever.forested-lung.workers.dev/mcp",
                 "rea": "https://rea-mcp-forever.forested-lung.workers.dev/mcp",
                 "rea_portal": "https://rea-portal-mcp-forever.forested-lung.workers.dev/mcp",
+                "scrapling": "https://scrapling-mcp-forever.forested-lung.workers.dev/mcp",
             },
             "payload_json": arguments.get("payload_json", "{}"),
         }

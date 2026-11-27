@@ -1,8 +1,8 @@
 {
-  "status": "BOOTING",
+  "status": "LIVE",
   "engine": "cutter",
   "title": "Cutter OmniNexus (rizinorg/cutter)",
-  "mcp_url": "",
-  "gui_url": "",
-  "updated_at": "2026-11-27T20:15:47Z"
+  "mcp_url": "https://enforcement-heel-municipality-dear.trycloudflare.com/mcp",
+  "gui_url": "https://enforcement-heel-municipality-dear.trycloudflare.com/",
+  "updated_at": "2026-11-27T20:16:42Z"
 }

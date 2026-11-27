@@ -1,8 +1,8 @@
 {
-  "status": "LIVE",
+  "status": "BOOTING",
   "engine": "cutter",
-  "title": "cutter (rizinorg) Omni-Nexus",
-  "mcp_url": "https://deutsch-participate-endif-independence.trycloudflare.com/mcp",
-  "gui_url": "https://deutsch-participate-endif-independence.trycloudflare.com/",
-  "updated_at": "2026-11-27T12:08:11Z"
+  "title": "Cutter OmniNexus (rizinorg/cutter)",
+  "mcp_url": "",
+  "gui_url": "",
+  "updated_at": "2026-11-27T15:12:24Z"
 }
